@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "logs/api/.814d2d860499b2c949672f8b7aa5bad3ba141703-audit.json",
+    "files": [
+        {
+            "date": 1619782853621,
+            "name": "logs/api/2021-04-30-info-boughtio.log",
+            "hash": "ceca499983486aa2910c716448f29509"
+        },
+        {
+            "date": 1620016231893,
+            "name": "logs/api/2021-05-03-info-boughtio.log",
+            "hash": "8d4e02bfe6eafe6f6c559166f6108ff2"
+        }
+    ]
+}

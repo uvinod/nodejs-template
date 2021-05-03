@@ -1,0 +1,29 @@
+{
+  "apps": [
+    {
+      "name": "",
+      "script": "./server.js",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      },
+      "ignore_watch": [
+        "node_modules",
+        "logs",
+        "bower_components",
+        ".tmp",
+        ".vscode",
+        "views",
+        "routes",
+        "public"
+      ],
+      "error_file": "./logs/error.log",
+      "out_file": "./logs/out.log",
+      "pid_file": "./logs/app.pid",
+      "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }
+  ]
+}
