@@ -1,5 +1,5 @@
 const Route = use('Route');
-const AuthAdminMiddleware = use("App/Middleware/AuthAdminMiddleware");
+const AuthMiddleware = use("App/Middleware/AuthMiddleware");
 const ExtendMiddleware = use("App/Middleware/ExtendMiddleware");
 
 Route.group(() => {

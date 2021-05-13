@@ -8,5 +8,5 @@ module.exports = {
     password: Env.get("SMTP_PASS", ""),
     from: Env.get("SMTP_FROM", ""),
   },
-  app_name: "BOUGHT IO V2"
+  app_name: ""
 };

@@ -6,7 +6,7 @@ const Utils = require("../Utils/utils");
 const authConfig = use('config/auth')
 const Cookies = require('cookie-universal')
 
-class AuthAdminMiddleware extends BaseMiddleware {
+class AuthMiddleware extends BaseMiddleware {
   constructor(request, response, next) {
     super(request, response, next);
 
@@ -72,4 +72,4 @@ class AuthAdminMiddleware extends BaseMiddleware {
   }
 }
 
-module.exports = AuthAdminMiddleware.export();
+module.exports = AuthMiddleware.export();
